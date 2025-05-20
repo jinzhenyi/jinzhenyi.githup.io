@@ -1,0 +1,43 @@
+.b-letter {
+.custom-b-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  background: rgba(0,161,214,0.1);
+  transition: all 0.3s;
+}
+
+/* 字母B的设计 */
+.b-letter {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background: #00A1D6;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.b-label {
+  color: #00A1D6;
+  font-size: 0.95em;
+}
+
+.custom-b-link:hover {
+  background: rgba(0,161,214,0.2);
+  transform: translateY(-2px);
+}
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-b-link:hover .b-letter {
+  transform: rotate(15deg) scale(1.1);
+  box-shadow: 0 4px 8px rgba(0,161,214,0.3);
+}
